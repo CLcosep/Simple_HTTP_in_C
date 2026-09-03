@@ -1,0 +1,13 @@
+# Compiled binary
+server
+
+# Object files
+*.o
+*.out
+
+# Editor/IDE cruft
+.vscode/
+*.swp
+
+# OS cruft
+.DS_Store
