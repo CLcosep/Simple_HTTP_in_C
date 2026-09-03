@@ -98,7 +98,7 @@ int main() {
             }
 
             // read file into fixed sized stack buffer
-            char file_buf[8192];
+            char file_buf[65536];
             size_t file_size = fread(file_buf, 1, sizeof file_buf, index_file);
             fclose(index_file);
 
